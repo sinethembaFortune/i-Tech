@@ -1,0 +1,337 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : May 20, 2023, 10:42:32 AM
+    Author     : hp
+*/
+
+
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : May 16, 2022, 11:55:16 PM
+    Author     : 27611
+*/
+
+
+/**{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}*/
+/*body{
+    padding: 0%;
+    margin: 0%;
+}*/
+.banner{
+    position: relative;
+    width: border-box;
+    display: flex;
+    top: 20%;
+    padding: 2%;
+    align-content: center;
+}
+
+.navbarlist{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    color: white;
+    width: 35%;
+    margin-left: 40%
+}
+
+.logo{
+    font-size: 40px;
+    color: white;
+    font-weight: 800;
+    width: 220px;
+}
+
+.navbarlist li a{
+    color: white;
+    list-style: none;
+    font-size: 20px;
+}
+
+.navbarlist li{
+    margin-left: 4%;
+}
+.banner{
+    position: relative;
+    width: border-box;
+    display: flex;
+    top: 20%;
+    padding: 2%;
+    align-content: center
+}
+
+nav{
+    height: 10%;
+    width: 100% 
+}
+label.logo{
+    color: white;
+    font-size:40px;
+    line-height: 90px;
+    padding: 0 10px;
+    font-weight: bold;
+    width: 300pxz;
+    margin-right: 8%;
+    margin-left: 3%;
+}
+nav ul{
+    float: right;
+    margin-right: 5px;
+}
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+nav ul li a{
+    color:white;
+    font-size: 15px;
+    padding: 5px 10px;
+    border-radius: 3px;
+    
+}
+nav ul li a i{
+    padding: 4px;
+}
+a.active, a:hover{
+    background: #1b9bff;
+    transition: 0.5s;
+    
+}
+
+
+banner2{
+    align-content: center;
+}
+
+.left-column{
+    width: 500px;
+    margin-top: 20%;
+    margin-left: 40%
+}
+
+.left-column p{
+    color: white;
+    font-size: 25px;
+    margin-left: 48%;
+}
+
+.txt{
+    color: white;
+    font-size: 50px;
+}
+
+.tech{
+    font-size: 50px;
+    color: red;
+}
+@media (max-width:952px){
+    labe.logo{
+        font-size: 30px;
+        padding-left: 40px;
+    }
+    nav ul li a{
+        font-size: 16px;
+    }
+}
+@media (max-width:858px){
+    .checkBtn{
+        display: block;
+    }
+    ul{
+        position: fixed;
+        width: 100%;
+        height: 100vh; 
+        background: #2c3e50;
+        top: 80px;
+        left: -100%;
+        text-align: right; 
+        transition: all .5s;
+        
+    }
+    nav ul li{
+        display: block;
+        margin: 50px 0;
+        line-height: 30px
+    }
+    nav ul li a{
+        font-size: 20px;
+    }
+    a:hover, a.active{
+        background: none;
+        color: #0082e6;
+        
+    }
+    #check:checked ~ ul{
+        left: 0;
+        
+    }
+    
+}
+ 
+
+/*a:after{
+    content: "";
+    position: absolute;
+    background-color: white;
+    width: 100%;
+    height: 3px;
+    left: 0;
+    bottom: -10px;
+    transition: 0.3s;
+}
+
+a:hover{
+    color: white;
+}
+
+a:hover:after{
+    width: 100%;
+    
+}*/
+
+body{
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url("3.jpg");
+    background-position: center;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    list-style: none; 
+}
+
+
+/*.container{
+    position: absolute; 
+    width: 100%;
+    top: 8%;
+    left: 15%;
+    background: #fff; 
+    
+}*/
+
+/*.description{
+    width: 90%;
+}
+
+.cont{
+    position: absolute; 
+    width: 100%;
+    top: 15%;
+    left: 15%;
+    background: #fff; 
+    margin-top: 10px;
+}
+
+.contain{
+    position: absolute; 
+    width: 100%;
+    top: 15%;
+    left: 5%;
+    background: #fff; 
+    margin-top: 10px;
+}
+
+.contn{
+    position: absolute; 
+    width: 100%;
+    top: 15%;
+    left: 8%;
+    background: #fff; 
+    margin-top: 10px;
+}
+
+.content-table{
+    border-collapse: collapse;
+    margin: 10px 0px;
+    font-size: 0.9em;
+    min-width: 400px;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    box-shadow: 0 0 5px #424543;
+   }
+.content-table thead tr{
+    background-color: #0082e6;
+    color: #fff;
+    text-align: left;
+    font-weight: bold;
+}
+.content-table th, .content-table td{
+    padding: 12px 15px;
+}
+.content-table tbody tr{
+    border-bottom: 1px solid #dddddd;
+}
+.content-table tbody tr:nth-of-type(even){
+    background-color: #f3f3f3;
+}
+.content-table tbody tr:nth-last-of-type{
+    border-bottom: 2px solid  #009879;
+    
+}
+
+.popup{
+    background-color: #424543;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+
+.popup-content{
+    height: 250px;
+    width:500px;
+    padding: 20px;
+    background: #fff;
+    border-radius: 20px;
+    position:relative;
+}
+
+img{
+    height: 50px;
+    width: 50px;
+}
+.question{
+    margin: 20px auto;
+    padding: 8px;
+    display: block;
+}
+
+a.button, a:hover{
+    display: inline;
+    border: 1px solid #1b9bff;
+    background: #1b9bff;
+    padding: 10px;
+    border-radius: 20px;
+    width: 10%;
+}
+
+.build-name{
+    font-size: 25px;
+    font-family: sans-serif;
+    margin-bottom: 2px;
+}
+
+.jobs{
+    margin-top: 5px;
+    margin-bottom: 15px;
+}*/
+
